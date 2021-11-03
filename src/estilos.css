@@ -1,0 +1,22 @@
+/*importamos la fuete*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+
+/* para reiniciar los estilos basicos de la pagina*/
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ede9e7;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    max-width: 1000px;/*para el ancho maximo del slider*/
+    margin: 50px auto;/*margen arriba y abajo*/
+    overflow: hidden;/*para que las imagenes que esten
+    fuera de los 100px esten ocultas*/
+}
